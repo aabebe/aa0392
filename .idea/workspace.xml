@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f072be6-da6d-4034-90ed-b42f0bc13ad6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/RentalAgreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ToolRentalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/ToolRentalServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,36 +31,108 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2jQO22jrdR3wHnzJDJdiOoEre1P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tool.rental.Main" />
+}</component>
+  <component name="RunManager" selected="JUnit.ToolRentalServiceTest">
+    <configuration name="ToolRentalServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="toolRentalApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tool.rental.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ToolRentalServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolRentalServiceTest.testCheckoutScenario3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toolRentalApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ToolRentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutScenario3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolRentalServiceTest.testCheckoutScenario4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toolRentalApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ToolRentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutScenario4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolRentalServiceTest.testCheckoutScenario5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toolRentalApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ToolRentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutScenario5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolRentalServiceTest.testCheckoutScenario6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toolRentalApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ToolRentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutScenario6" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ToolRentalServiceTest" />
+        <item itemvalue="JUnit.ToolRentalServiceTest.testCheckoutScenario6" />
+        <item itemvalue="JUnit.ToolRentalServiceTest.testCheckoutScenario5" />
+        <item itemvalue="JUnit.ToolRentalServiceTest.testCheckoutScenario4" />
+        <item itemvalue="JUnit.ToolRentalServiceTest.testCheckoutScenario3" />
       </list>
     </recent_temporary>
   </component>
@@ -64,7 +144,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721315624599</updated>
-      <workItem from="1721315626251" duration="2893000" />
+      <workItem from="1721315626251" duration="4637000" />
+      <workItem from="1721339715556" duration="14443000" />
     </task>
     <servers />
   </component>
